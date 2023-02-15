@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    這是前台頁面
+    這是前前前台頁面
     <router-link to="/">首頁</router-link> |
     <router-link to="/products">產品列表</router-link> |
     <router-link to="/cart">購物車</router-link> |
