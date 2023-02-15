@@ -22,10 +22,7 @@ export default {
       this.$router.push('/login')
     },
     check () {
-      const token = document.cookie.replace(
-        /(?:(?:^|.*;\s*)hexToken\s*=\s*([^;]*).*$)|^.*$/,
-        '$1'
-      )
+      const token = document.cookie.replace(/(?:(?:^|.*;\s*)qqqapi\s*=\s*([^;]*).*$)|^.*$/, '$1')
       this.$http.defaults.headers.common.Authorization = token
       this.$http.post(`${VITE_APP_URL}/v2/api/user/check`)
         .then((res) => {
