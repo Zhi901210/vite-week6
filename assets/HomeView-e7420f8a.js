@@ -1,0 +1,1 @@
+import{_ as e,o,c,d as s}from"./index-1d87adac.js";const t={},n={class:"container"},_=s("h1",null,"首頁",-1),a=[_];function r(d,i){return o(),c("div",n,a)}const f=e(t,[["render",r]]);export{f as default};
